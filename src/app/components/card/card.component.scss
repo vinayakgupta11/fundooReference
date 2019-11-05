@@ -1,0 +1,55 @@
+.sample{
+    background: transparent;
+}
+
+.textArea{
+    background: transparent;
+    border: none;
+    outline: none;
+    // user-select: none;
+    min-height: auto;
+    resize: none;
+} 
+.display-note{
+    border-radius: 18px;
+}
+.display-note:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+
+  }
+//   .myClass{
+//     ::ng-deep .mat-dialog-container{
+
+//         padding:24px; 
+//         border-radius: 18px!important;
+//     }
+//   }
+  .mat-icon{
+    color: rgb(103, 107, 110);
+}
+.mat-icon:hover {
+    color: black;
+}
+.display-note{
+    .iconClass{
+        opacity: 0;
+    }
+    .barpin{
+        opacity: 0;
+    }
+    &:hover{
+        .iconClass{
+            opacity: 1;
+        }
+        .barpin{
+            opacity: 1;
+        }
+    }
+}
+// myClass1{
+//     background-color: aqua;
+// }
+// .myClass1 :host::ng-deep .mat-dialog-container{
+//     padding:0%; 
+//     border-radius: 18px!important;
+// }

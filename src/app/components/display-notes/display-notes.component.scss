@@ -1,0 +1,45 @@
+.display-note{
+    // max-width: 240px;   
+    // margin-top: 20px;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    display: flex;
+    place-content: normal;
+    align-items: center;
+}
+.gridView{
+margin-left: 10%;
+margin-right: 7%;
+}
+.listView{
+margin-left: 20%;
+margin-right: 20%;
+}
+::ng-deep .ng-star-inserted{
+    margin-right: 0%;
+}
+// .title{
+//     width: 180px;
+// }
+
+.sample{
+    background: transparent;
+}
+
+.textArea{
+    background: transparent;
+    border: none;
+    outline: none;
+    // user-select: none;
+    min-height: auto;
+    resize: none;
+} 
+.example-card{
+    max-width:240px;
+}
+
+.test{
+    padding: 5px;
+    // max-width: 750px;
+
+}
